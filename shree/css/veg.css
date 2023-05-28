@@ -1,0 +1,57 @@
+.btn {
+
+    color: forestgreen;
+    /* font-size: medium; */
+    background-color: black;
+    /* font-weight: bold; */
+    border: 2px;
+    border-style: double;
+    border-color: forestgreen;
+
+}
+
+:hover.btn {
+    color: darkgreen;
+    background-color: white;
+
+
+}
+
+
+
+.outer-div{
+  
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 50px;
+    padding: 50px;
+
+  }
+  
+  .div{
+  
+    width: 25%;
+    margin: 1px;
+    border: 1px solid black;
+    text-align: center;
+    height: 50%;
+    padding: 0px;
+    
+  }
+
+
+  .div img{
+
+    width: 100%;
+    height: 100%;
+  }
+
+ .div button{
+
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+  }
+
